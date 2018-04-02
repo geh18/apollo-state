@@ -6,7 +6,7 @@ import { ApolloLink } from 'apollo-link';
 import resolvers from './resolvers';
 
 const httpLink = new HttpLink({
-  uri: 'http://localhost:8080/graphql'
+  uri: 'https://serene-headland-92794.herokuapp.com/graphql'
 });
 
 const cache = new InMemoryCache();
